@@ -1,0 +1,86 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 15px;
+background: #222;
+color: #fff;
+}
+
+
+.nav-links {
+list-style: none;
+display: flex;
+}
+
+
+.nav-links li {
+margin-left: 20px;
+}
+
+
+.nav-links a {
+color: #fff;
+text-decoration: none;
+}
+
+
+/* About Page */
+.about {
+text-align: center;
+padding: 20px;
+}
+
+
+.profile-img {
+width: 150px;
+border-radius: 50%;
+}
+
+
+/* Skills Page */
+.skills-container {
+display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+
+
+.card {
+background: #f4f4f4;
+padding: 20px;
+border: 1px solid #ccc;
+width: 30%;
+text-align: center;
+}
+
+
+/* Contact Page */
+.contact-form {
+width: 50%;
+margin: auto;
+padding: 20px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+margin: 10px 0;
+padding: 10px;
+}
+
+
+.contact-form button {
+padding: 10px 20px;
+background: #222;
+color: #fff;
+border: none;
+cursor: pointer;
+}
